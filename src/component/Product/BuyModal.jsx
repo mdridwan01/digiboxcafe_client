@@ -3,7 +3,7 @@ import axios from 'axios';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import bkash from '../../../public/Photo/bkash_payment_logo.png';
-const API_URL = "http://localhost:5000";
+const API_URL = "https://digiboxcafe-server.onrender.com";
 import {
   Modal,
   Box,

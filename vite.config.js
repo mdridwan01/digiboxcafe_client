@@ -6,11 +6,11 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
    server: {
-     host: '192.168.68.118',
-     //  host: '0.0.0.0', // 👈 critical: allow LAN access
+    // host: '192.168.68.118',
+       host: '0.0.0.0', // 👈 critical: allow LAN access
     port: 5173,
     proxy: {
-      '/api': 'https://digibox-server-2.onrender.com/',
+      '/api': 'https://digiboxcafe-server.onrender.com',
     },
     
   },

@@ -4,7 +4,7 @@ import BuyModal from './BuyModal';
 import { Box } from '@mui/material';
 import { ToastContainer } from 'react-toastify';
 import axios from 'axios';
- const API_URL = "http://localhost:5000";
+ const API_URL = "https://digiboxcafe-server.onrender.com";
 
 export default function ProductCard() {
     const [products, setProducts] = useState([]);
