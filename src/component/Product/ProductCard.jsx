@@ -7,17 +7,17 @@ import axios from 'axios';
  const API_URL = "https://digiboxcafe-server.onrender.com";
 
 export default function ProductCard() {
-    const [products, setProducts] = useState([]);
+     const [products, setProducts] = useState([]);
    
-               useEffect(() => {
-                axios.patch(`${API_URL}/api/vending/68d2580ac503c5f97e895c53`, {
-                            onKey: null
-                          }).then(() => {
-                          //  console.log("PATCH successful");
-                          }).catch((err) => {
-                            //console.error("PATCH error", err);
-                          });
-  }, []);
+  //              useEffect(() => {
+  //               axios.patch(`${API_URL}/api/vending/68d2580ac503c5f97e895c53`, {
+  //                           onKey: null
+  //                         }).then(() => {
+  //                         //  console.log("PATCH successful");
+  //                         }).catch((err) => {
+  //                           //console.error("PATCH error", err);
+  //                         });
+  // }, []);
 
   useEffect(() => {
     fetch(`${API_URL}/api/products`) 
