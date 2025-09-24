@@ -159,7 +159,10 @@ export default function Home() {
     <>
       {/* Navbar with green to orange gradient background and no hover effect */}
       <div className="bg-gradient-to-r from-green-400 to-orange-500 h-16 w-full flex justify-between items-center md:px-20 px-5 shadow-lg transform transition-all duration-500">
-        <img src={logo} alt="logo" className="w-40 md:w-64 md:h-10 h-9" />
+      <div className='flex items-center'>
+         <img src="https://www.pngplay.com/wp-content/uploads/7/Cafe-Logo-Background-PNG-Image.png" alt="logo" className="w-14 md:w-20 md:h-20 h-16" />
+        <span className='text-2xl text-white font-sans font-semibold tracking-wide italic '>DigiCafe</span>
+      </div>
         <div className="text-white text-md md:text-xl flex space-x-4">
           <p className="px-2 md:px-3">{currentDateTime.toLocaleTimeString()}</p>
           <p>{formatDate(currentDateTime)}</p>
