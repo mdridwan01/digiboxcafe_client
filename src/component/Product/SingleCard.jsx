@@ -27,7 +27,7 @@ export default function ModernCard({ products, onBuyClick }) {
       }}
     >
       {/* Top Badge with dynamic background color */}
-      <div
+      {/* <div
         className={`absolute top-0 left-1/2 transform -translate-x-1/2 w-28 h-12 rounded-tl-lg rounded-br-lg flex items-center justify-center shadow-lg animate-pulse z-10 ${
           availableProduct
             ? 'bg-gradient-to-r from-green-400 to-orange-500'
@@ -35,7 +35,7 @@ export default function ModernCard({ products, onBuyClick }) {
         }`}
       >
         <h1 className="text-white text-xl font-semibold"></h1>
-      </div>
+      </div> */}
 
       {/* Subtitle with infinite sliding animation */}
       <Typography
