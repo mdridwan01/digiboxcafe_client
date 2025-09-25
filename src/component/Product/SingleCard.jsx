@@ -34,7 +34,7 @@ export default function ModernCard({ products, onBuyClick }) {
             : 'bg-gradient-to-r from-red-500 to-yellow-600'
         }`}
       >
-        <h1 className="text-white text-xl font-semibold">{product_id} %</h1>
+        <h1 className="text-white text-xl font-semibold">👌</h1>
       </div>
 
       {/* Subtitle with infinite sliding animation */}
