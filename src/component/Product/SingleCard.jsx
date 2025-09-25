@@ -51,7 +51,7 @@ export default function ModernCard({ products, onBuyClick }) {
         gutterBottom
         component="div"
       >
-        {subTitle}
+        
       </Typography>
 
       {/* Product Image */}
@@ -59,7 +59,7 @@ export default function ModernCard({ products, onBuyClick }) {
         component="img"
         alt={title}
         image={image}
-        className="m-auto rounded-xl shadow-lg mt-3"
+        className="m-auto rounded-xl shadow-lg mt-10"
         sx={{
           height: 'auto',
           width: {
